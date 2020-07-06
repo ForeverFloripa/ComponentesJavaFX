@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="255.0" prefWidth="377.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="combobox.FXMLComboboxController">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <ComboBox fx:id="cbbCliente" layoutX="23.0" layoutY="103.0" prefWidth="150.0" promptText="Selecione o Cliente" />
+      <Button fx:id="btnRemover" layoutX="62.0" layoutY="174.0" mnemonicParsing="false" onAction="#removerItemCbb" text="Remover" />
+   </children>
+</AnchorPane>
